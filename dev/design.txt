@@ -1,2 +1,11 @@
 NoTeX Package Manager
 
+Requirements
++ work with standard virtualenv (as e.g. package.file.function, not package.version.file.function
++ directory per project
+~ share between projects
+~ remove unused packages
+
+Limit the use of environment variables but retain maximum flexibility by using a variable "NOTEX_CONFIG_FILE"
+  which isn't set by default but can be used to overrule any settings (e.g. for virtualenvs)
+

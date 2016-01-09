@@ -6,6 +6,9 @@ Requirements
 ~ share between projects
 ~ remove unused packages
 
+- a project could have multiple main documents, so it's not trivial to derive an index for a 'project'. Also, should multiple projects be able to share environment? And should people be able to update some kind of path (and then how should they fill their directories?)
+- what about packages that have external requirements like through pip?
+
 Limit the use of environment variables but retain maximum flexibility by using a variable "NOTEX_CONFIG_FILE"
   which isn't set by default but can be used to overrule any settings (e.g. for virtualenvs)
 

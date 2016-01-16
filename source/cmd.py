@@ -22,7 +22,7 @@ def parse(args):
 	# parser.add_argument('--single-file', dest='single', action='store_true',
 	# 	help='Attempt to merge all dependencies into a single file. This is not always possible, e.g. for large images other than svg.')
 	# parser.add_argument('--clean', dest='clean', action='store_true',
-	# 	help='Do a clean compile, ignoring existing temporary files.')
+	# 	help='Do a clean compile_2html, ignoring existing temporary files.')
 	opts = parser.parse_args(args)
 	return opts
 

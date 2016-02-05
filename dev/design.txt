@@ -12,3 +12,9 @@ Requirements
 Limit the use of environment variables but retain maximum flexibility by using a variable "NOTEX_CONFIG_FILE"
   which isn't set by default but can be used to overrule any settings (e.g. for virtualenvs)
 
+Package manager should have a help command that prints the readme of a package, e.g.
+  ntp help catgifs
+  ntp install catgifs>=7.0
+(Then if there's an editor in the future, it can use that)
+
+
